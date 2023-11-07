@@ -62,4 +62,11 @@ const countriesAndCapitals = {
       event.preventDefault();
       document.getElementById("check-button").click();}})
 
-  
+      function IsEmpty() {
+
+        if (document.form.question.value == "") {
+          alert("empty");
+        }
+        return;
+      }
+      
